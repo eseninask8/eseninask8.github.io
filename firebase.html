@@ -50,11 +50,9 @@
 
 </ul>
 <style>
-
 p0 {font-size: 1em; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; color: #ddcca3;}
 p1 {font-size: 4em; text-shadow: 4px 2px black; color: #ece2ca;}
 p2 {font-size: 4em; text-shadow: 0 2px 2px rgba(0, 0, 30, 0.6); color: rgba(102, 0, 102, 0.5);}
-
 a.button15 {
   display: inline-block;
   font-family: arial,sans-serif;
@@ -104,6 +102,13 @@ a.button15:active {
 <option value="1">1</option>
 <option value="2">2</option>
 <option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
 
  </select>
   <br>
@@ -113,7 +118,6 @@ a.button15:active {
 <p id="value4">4</p>
 <script>
 function er1 (){
-
 var yourSelect = document.getElementById( "to1" );
 e= yourSelect.options[ yourSelect.selectedIndex ].value;
 var a = firebase.database().ref('/guys');
@@ -172,7 +176,7 @@ l='i'+j;
 <br>
 <br>
 Введите количество полей для вывода
-<input value="4" id="i0" type="text">
+<input value="13.5" id="i0" type="text">
 <br>
 <a href="#on" class="button15" onclick="er2()" >Make It</a>
 <br> <p0 id="p0"></p0>
