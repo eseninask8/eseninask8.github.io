@@ -116,6 +116,9 @@ a.button15:active {
        document.getElementById("inf").innerHTML ="ИД: " + b + "<br> Имя: " + g.name + "<br> Фамилия: " + g.secondname + "<br> Отчество: " + g.lastname + "<br>   Пароль: " + g.password + "<br> Размер ноги: " + g.footsize +"<br Фото: > <img src=" + g.url + ">";
       });
     }
+     function er3() {
+       document.getElementById("inf").innerHTML ="ИД: "";
+    }
   </script>
 
   ID
@@ -140,6 +143,8 @@ a.button15:active {
   <br>
   <br>
   <a href="#on" class="button15" onclick="er2()">Вывести </a>
+  <br>
+  <a href="#on" class="button15" onclick="er3()">Убрать </a>
   <br>
 
   <div id="inf"></div>
